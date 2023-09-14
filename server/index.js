@@ -5,7 +5,7 @@ const pool = require("./db");
 
 //middleware
 app.use(cors({
-    origin: ["http://localhost:5000", "https://PERN-To-Do-App.onrender.com"]
+    origin: ["http://localhost:5000", "https://PERN-To-Do-App.onrender.com"],
 }));
 app.use(express.json());
 
